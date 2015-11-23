@@ -1,6 +1,9 @@
-# react-simple
+# design-pattern-ES6
 
-This is program to create a simple web-application in React.js.
+This site introduces GoF design patterns in ES6.
+
+Developing now, so you don't clone.
+
 
 ## Usage
 
