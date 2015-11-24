@@ -6,6 +6,9 @@ const Tabs = MU.Tabs;
 const Tab = MU.Tab;
 
 const styles = {
+    tabs: {
+        backgroundColor: 'purple'
+    },
     inkBarStyle: {
         backgroundColor: COLORS.yellow
     }
@@ -29,7 +32,11 @@ export default class Header extends React.Component {
         return (
             <div>
 
-                <Tabs valueLink={this.valueLink()} inkBarStyle={styles.inkBarStyle} initialSelectedIndex={0}>
+                <Tabs
+                 valueLink={this.valueLink()}
+                 inkBarStyle={styles.inkBarStyle}
+                 initialSelectedIndex={0}
+                 tabItemContainerStyle={styles.tabs}>
                     <Tab label="Design Pattern in ES6." value="home" route="home"/>
                 </Tabs>
 
