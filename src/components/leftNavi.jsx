@@ -4,7 +4,6 @@ import React    from 'react';
 import {COLORS} from 'utils/colors';
 
 const LeftNav = MU.LeftNav;
-const MenuItem = MU.MenuItem;
 
 const styles = {
     leftNavi: {
@@ -21,7 +20,8 @@ export default class LeftNavi extends React.Component {
         return [
             {route: 'home',     text: 'Home'},
             {route: 'singlton', text: 'Singlton'},
-            {route: 'factoryMethod', text: 'Factory method'}
+            {route: 'factoryMethod',   text: 'Factory method'},
+            {route: 'abstractFactory', text: 'Abstract factory'}
         ];
     }
 
