@@ -43,7 +43,10 @@ export default class AbstractFactoryComponent extends React.Component {
         const buttons = _.map(this.owners(), (owner, i) => {
             return (
                 <div style={styles.raisedButtonWrap} key={owner}>
-                    <RaisedButton label={`factory${i+1}`} onClick={this.switchFactory.bind(this, owner)}/>
+                    <RaisedButton
+                     label={`factory${i+1}`}
+                     onClick={this.switchFactory.bind(this, owner)}
+                     primary={owner===this.state.currentOwner} />
                 </div>
             )
         });
@@ -64,7 +67,7 @@ export default class AbstractFactoryComponent extends React.Component {
                     <div style={{clear: 'both'}} />
                     <div>
                         <p>Person : ID is {person.getId()}, Name is {person.getName()}</p>
-                        <p>Occupation : ID is {occupation.getId()}, Name is {occupation.getName()}</p>
+                        <p>Occupation : ID is {occupation.getId()}, {occupation.getName()}</p>
                     </div>
                 </div>
 
