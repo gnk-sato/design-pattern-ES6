@@ -9,7 +9,7 @@ Developing now, so you don't clone.
 
 ```
 $ git clone ...
-$ cd react-simple
+$ cd design-pattern-ES6
 $ npm install
 $ gulp start
 ```
