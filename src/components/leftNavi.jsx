@@ -19,6 +19,7 @@ export default class LeftNavi extends React.Component {
     menuItems() {
         return [
             {route: 'home',        text: 'Home'},
+            {route: 'proxy',       text: 'Proxy'},
             {route: 'bridge',      text: 'Bridge'},
             {route: 'builder',     text: 'Builder'},
             {route: 'singlton',    text: 'Singlton'},

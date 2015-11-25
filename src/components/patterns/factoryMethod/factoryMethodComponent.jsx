@@ -25,7 +25,6 @@ export default class FactoryMethodComponent extends React.Component {
     render() {
         const introductionCars = _.map(this.cars, (car) => {
             const option = car.getOption();
-            console.log(option)
             return (
                 <div key={car.getId()}>
                     <h1>{car.getName()}</h1>
