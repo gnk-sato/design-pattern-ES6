@@ -26,6 +26,7 @@ export default class BridgeComponent extends React.Component {
     render() {
         const chartDOMs = _.map(this.charts, (chart, i) => {
             let chartWrap = _.clone(styles.chartWrap);
+
             if(i+1 === this.charts.length)
                 chartWrap.borderBottom = 'none';
 
