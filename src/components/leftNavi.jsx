@@ -25,8 +25,9 @@ export default class LeftNavi extends React.Component {
             {route: 'singlton',    text: 'Singlton'},
             {route: 'composite',   text: 'Composite'},
             {route: 'decorator',   text: 'Decorator'},
-            {route: 'factoryMethod',   text: 'Factory method'},
-            {route: 'abstractFactory', text: 'Abstract factory'},
+            {route: 'factoryMethod',         text: 'Factory method'},
+            {route: 'abstractFactory',       text: 'Abstract factory'},
+            {route: 'chainOfResponsibility', text: 'Chain of Responsibility'},
         ];
     }
 

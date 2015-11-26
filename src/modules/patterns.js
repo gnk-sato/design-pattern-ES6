@@ -9,6 +9,7 @@ import BridgeComponent    from 'components/patterns/bridge/bridgeComponent.jsx';
 import CompositeComponent from 'components/patterns/composite/compositeComponent.jsx';
 import DecoratorComponent from 'components/patterns/decorator/decoratorComponent.jsx';
 import ProxyComponent     from 'components/patterns/proxy/proxyComponent.jsx';
+import ChainOfResponsibilityComponent from 'components/patterns/chainOfResponsibility/chainOfResponsibilityComponent.jsx';
 
 exports.patterns = {
     home:      function(){ return <Home />; },
@@ -19,5 +20,6 @@ exports.patterns = {
     bridge:    function(){ return <BridgeComponent />; },
     composite: function(){ return <CompositeComponent />; },
     decorator: function(){ return <DecoratorComponent />; },
-    proxy:     function(){ return <ProxyComponent />; }
+    proxy:     function(){ return <ProxyComponent />; },
+    chainOfResponsibility: function(){ return <ChainOfResponsibilityComponent />; }
 };
