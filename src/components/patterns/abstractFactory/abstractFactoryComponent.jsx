@@ -57,6 +57,7 @@ export default class AbstractFactoryComponent extends React.Component {
 
         return (
             <div>
+                <h1>Abstract factory</h1>
                 <p>There are four classes, AbstractFactory, Factory, Person and Occupation.</p>
                 <p>A Person and An Occupation have ID and Name.</p>
                 <p>Factory is generator of Person and Occupation, so it has Person and Occupation.</p>

@@ -23,6 +23,7 @@ export default class BuilderComponent extends React.Component {
 
         return (
             <div>
+                <h1>Builder</h1>
                 <p>Builder pettern has two classes at least, Builder and Director.</p>
                 <p>Builder has some methods that divide processes of constructor.</p>
                 <p>Director has a function that calls Builder methods in order.</p>

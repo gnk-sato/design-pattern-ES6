@@ -40,6 +40,7 @@ export default class FactoryMethodComponent extends React.Component {
 
         return (
             <div>
+                <h1>Factory method</h1>
                 <p>There are two classes, class Car and class Option.</p>
                 <p>A Car has ID, Name and Option.</p>
                 <p>A Option has colors and manufacturers.</p>

@@ -14,6 +14,7 @@ export default class ProxyComponent extends React.Component {
     render(){
         return (
             <div>
+                <h1>Proxy</h1>
                 <p>{this.nameClass.nameView()}</p>
                 <p>{this.nameProxy.nameView()}</p>
             </div>

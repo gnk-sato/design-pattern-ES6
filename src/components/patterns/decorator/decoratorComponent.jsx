@@ -14,6 +14,7 @@ export default class DecoratorComponent extends React.Component {
 
         return (
             <div>
+                <h1>Decorator</h1>
                 {_.map([name1, name2, decorator1, decorator2], (name, i) => {
                     return (
                         <div key={i}>

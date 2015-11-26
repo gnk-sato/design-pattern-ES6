@@ -27,6 +27,7 @@ export default class ChainOfResposibilityComponent extends React.Component {
 
         return (
             <div style={{marginTop: '20px'}}>
+                <h1>Chain of responsibility</h1>
                 <p>Please input something. If you finish input, press Enter.</p>
                 <TextField ref='text' hintText='Input something' onEnterKeyDown={this.eText.bind(this)} />
                 <p style={style}>See your console!</p>

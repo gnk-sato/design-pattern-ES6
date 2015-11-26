@@ -41,6 +41,7 @@ export default class BridgeComponent extends React.Component {
 
         return (
             <div>
+                <h1>Bridge</h1>
                 {chartDOMs}
             </div>
         );
