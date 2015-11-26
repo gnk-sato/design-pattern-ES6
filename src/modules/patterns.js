@@ -6,6 +6,7 @@ import BridgeComponent      from 'components/patterns/bridge/bridgeComponent.jsx
 import CommandComponent     from 'components/patterns/command/commandComponent.jsx';
 import BuilderComponent     from 'components/patterns/builder/builderComponent.jsx';
 import SingltonComponent    from 'components/patterns/singlton/singltonComponent.jsx';
+import MediatorComponent    from 'components/patterns/mediator/mediatorComponent.jsx';
 import CompositeComponent   from 'components/patterns/composite/compositeComponent.jsx';
 import DecoratorComponent   from 'components/patterns/decorator/decoratorComponent.jsx';
 import InterpreterComponent from 'components/patterns/interpreter/interpreterComponent.jsx';
@@ -22,6 +23,7 @@ exports.patterns = {
     decorator: function(){ return <DecoratorComponent />; },
     proxy:     function(){ return <ProxyComponent />; },
     command:   function(){ return <CommandComponent />; },
+    mediator:  function(){ return <MediatorComponent />; },
     interpreter:     function(){ return <InterpreterComponent /> },
     factoryMethod:   function(){ return <FactoryMethodComponent />; },
     abstractFactory: function(){ return <AbstractFactoryComponent />; },
