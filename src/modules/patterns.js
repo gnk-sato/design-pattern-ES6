@@ -5,6 +5,7 @@ import ProxyComponent       from 'components/patterns/proxy/proxyComponent.jsx';
 import BridgeComponent      from 'components/patterns/bridge/bridgeComponent.jsx';
 import CommandComponent     from 'components/patterns/command/commandComponent.jsx';
 import BuilderComponent     from 'components/patterns/builder/builderComponent.jsx';
+import MementoComponent     from 'components/patterns/memento/mementoComponent.jsx';
 import SingltonComponent    from 'components/patterns/singlton/singltonComponent.jsx';
 import MediatorComponent    from 'components/patterns/mediator/mediatorComponent.jsx';
 import CompositeComponent   from 'components/patterns/composite/compositeComponent.jsx';
@@ -24,6 +25,7 @@ exports.patterns = {
     proxy:     function(){ return <ProxyComponent />; },
     command:   function(){ return <CommandComponent />; },
     mediator:  function(){ return <MediatorComponent />; },
+    memento:   function(){ return <MementoComponent />; },
     interpreter:     function(){ return <InterpreterComponent /> },
     factoryMethod:   function(){ return <FactoryMethodComponent />; },
     abstractFactory: function(){ return <AbstractFactoryComponent />; },
