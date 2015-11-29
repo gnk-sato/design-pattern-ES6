@@ -17,7 +17,7 @@ const styles = {
 
 export default class Body extends React.Component {
     render() {
-        const pattern = this.props.params.pattern;
+        const pattern = this.props.params.pattern || 'home';
 
         return (
             <div>

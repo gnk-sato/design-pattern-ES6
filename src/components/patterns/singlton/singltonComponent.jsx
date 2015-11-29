@@ -13,6 +13,7 @@ export default class SingltonComponent extends React.Component {
     render() {
         return (
             <div>
+                <h1>Singlton</h1>
                 <p>Two files import SingltonClass.</p>
                 <p>SingltonClass has random value.</p>
                 <p>Let's see that random values in two files.</p>
