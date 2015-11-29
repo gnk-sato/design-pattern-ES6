@@ -8,6 +8,7 @@ import BuilderComponent     from 'components/patterns/builder/builderComponent.j
 import MementoComponent     from 'components/patterns/memento/mementoComponent.jsx';
 import SingltonComponent    from 'components/patterns/singlton/singltonComponent.jsx';
 import MediatorComponent    from 'components/patterns/mediator/mediatorComponent.jsx';
+import ObserverComponent    from 'components/patterns/observer/observerComponent.jsx';
 import CompositeComponent   from 'components/patterns/composite/compositeComponent.jsx';
 import DecoratorComponent   from 'components/patterns/decorator/decoratorComponent.jsx';
 import InterpreterComponent from 'components/patterns/interpreter/interpreterComponent.jsx';
@@ -26,6 +27,7 @@ exports.patterns = {
     command:   function(){ return <CommandComponent />; },
     mediator:  function(){ return <MediatorComponent />; },
     memento:   function(){ return <MementoComponent />; },
+    observer:  function(){ return <ObserverComponent />; },
     interpreter:     function(){ return <InterpreterComponent /> },
     factoryMethod:   function(){ return <FactoryMethodComponent />; },
     abstractFactory: function(){ return <AbstractFactoryComponent />; },
