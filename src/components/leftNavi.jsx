@@ -20,6 +20,7 @@ export default class LeftNavi extends React.Component {
         return [
             {route: 'home',        text: 'Home'},
             {route: 'proxy',       text: 'Proxy'},
+            {route: 'state',       text: 'State'},
             {route: 'bridge',      text: 'Bridge'},
             {route: 'command',     text: 'Command'},
             {route: 'builder',     text: 'Builder'},

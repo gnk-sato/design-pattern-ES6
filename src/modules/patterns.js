@@ -2,6 +2,7 @@
 import React from 'react';
 import Home  from 'components/patterns/home.jsx';
 import ProxyComponent       from 'components/patterns/proxy/proxyComponent.jsx';
+import StateComponent       from 'components/patterns/state/stateComponent.jsx';
 import BridgeComponent      from 'components/patterns/bridge/bridgeComponent.jsx';
 import CommandComponent     from 'components/patterns/command/commandComponent.jsx';
 import BuilderComponent     from 'components/patterns/builder/builderComponent.jsx';
@@ -19,6 +20,7 @@ import ChainOfResponsibilityComponent from 'components/patterns/chainOfResponsib
 exports.patterns = {
     home:      function(){ return <Home />; },
     builder:   function(){ return <BuilderComponent />; },
+    state:     function(){ return <StateComponent />; },
     singlton:  function(){ return <SingltonComponent />; },
     bridge:    function(){ return <BridgeComponent />; },
     composite: function(){ return <CompositeComponent />; },
