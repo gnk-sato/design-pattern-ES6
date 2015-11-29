@@ -7,6 +7,7 @@ import BridgeComponent      from 'components/patterns/bridge/bridgeComponent.jsx
 import CommandComponent     from 'components/patterns/command/commandComponent.jsx';
 import BuilderComponent     from 'components/patterns/builder/builderComponent.jsx';
 import MementoComponent     from 'components/patterns/memento/mementoComponent.jsx';
+import VisitorComponent     from 'components/patterns/visitor/visitorComponent.jsx';
 import SingltonComponent    from 'components/patterns/singlton/singltonComponent.jsx';
 import MediatorComponent    from 'components/patterns/mediator/mediatorComponent.jsx';
 import ObserverComponent    from 'components/patterns/observer/observerComponent.jsx';
@@ -30,6 +31,7 @@ exports.patterns = {
     command:   function(){ return <CommandComponent />; },
     mediator:  function(){ return <MediatorComponent />; },
     memento:   function(){ return <MementoComponent />; },
+    visitor:   function(){ return <VisitorComponent />; },
     observer:  function(){ return <ObserverComponent />; },
     strategy:  function(){ return <StrategyComponent />; },
     interpreter:     function(){ return <InterpreterComponent /> },

@@ -25,6 +25,7 @@ export default class LeftNavi extends React.Component {
             {route: 'command',     text: 'Command'},
             {route: 'builder',     text: 'Builder'},
             {route: 'memento',     text: 'Memento'},
+            {route: 'visitor',     text: 'Visitor'},
             {route: 'singlton',    text: 'Singlton'},
             {route: 'mediator',    text: 'Mediator'},
             {route: 'composite',   text: 'Composite'},
